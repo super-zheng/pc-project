@@ -1,0 +1,336 @@
+/*轮播图区域*/
+
+div.banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    
+}
+div.banner ul.banner_img{
+    position: absolute;
+    left: 0px;
+}
+div.banner ul.banner_img>li{
+    float: left;
+    width: 1900px;
+}
+div.banner ul.banner_img img{
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+div.block{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    font-size: 38px;
+    color: #EEEEEE;
+    background: #222220;
+    text-align: center;
+    line-height: 53px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all .3s linear;
+}
+div.block:hover{
+    background: #89B126;
+    
+}
+div.ck_left{
+    top: 50%;
+}
+div.ck_right{
+    top: 50%;
+    right: 0px;
+}
+ul.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+ul.indicators li{
+    background: #828282;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: 8px;
+    cursor: pointer;
+}
+ul.indicators li.hover{
+    background: #FEFDFD;
+}
+
+/*产品体验*/
+div.c1{   
+    background: url(../img/bg11.jpg) no-repeat center center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 820px;
+}
+
+div.c1_title{
+    width: 325px;
+    height: 78px;
+    border: 5px solid #CACEBF;
+    margin: 0 auto;
+}
+div.c1_title_t1{
+    font-family: "微软雅黑";
+    font-size: 46px;
+    color: #323232;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+div.c1_title_t2{
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #cacebf;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    background: #ECEDE9;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+div.boxmain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+div.c1_list {
+    padding-top: 50px;
+    width: 276px;
+    height: 225px;
+}
+
+div.c1_list ul{
+    width: 1200px;
+}
+div.c1_list ul li{
+    display: inline-block;
+    width: 23%;
+    height: 305px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+div.c1_titleText{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #323232;
+    background: #ffffff;
+}
+div.c1_list img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+div.c1_list img:hover{
+    transform: scale(1.08);
+}
+
+/*加盟合作*/
+div.c2{
+    background: url(../img/bg1.jpg) no-repeat;
+    background-size:100% 100%;   
+    height: 570px;
+    padding-top: 90px;
+}
+div.c2_title{
+    width: 325px;
+    height: 78px;
+    border: 5px solid #CACEBF;
+    margin: 0 auto; 
+}
+div.c2_title_t1{
+    font-family: "微软雅黑";
+    font-size: 46px;
+    color: #ECEDE9;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+div.c2_title_t2{
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #CACEBF;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    background: #61625D;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+div.c2_list{
+    height: 352px;
+    padding-top: 60px;
+    text-align: center;
+}
+div.c2_list ul li{
+    display: inline-block;
+    width: 190px;
+    height: 292px;
+    margin-left: 90px;
+}
+div.c2_list ul li a{
+    display: inline-block;
+    width: 190px;
+    height: 292px; 
+}
+div.c2_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;  
+    position: relative;
+    
+}
+div.c2_img img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: all 0.5s linear;   
+}
+
+div.c2_img img:hover{   
+    transform: rotate(360deg);
+}
+div.c2_en{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: rgb(236, 236, 232);
+    text-transform: uppercase;
+    padding-top: 25px;
+    text-align: center;
+}
+div.c2_ch{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 8px;
+}
+div.c2_jt{
+    background: url(../img/jt.png) no-repeat;
+    width: 35px;
+    height: 13px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+/*万象更新*/
+div.c3{
+    background: #ECEDE9;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 560px;
+}
+div.c3_list{
+    text-align: center;
+    padding-top: 60px;
+}
+div.c3_list ul li{
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: #ffffff;
+    text-align: left;
+    width: 360px;
+    height: 365px;
+}
+div.c3_list ul li a{
+    display: inline-block;
+    width: 360px;
+    height: 365px;
+}
+div.c3_list ul li img{
+    width: 310px;
+    height: 200px;
+    margin-top:20px;
+    margin-left: 25px;
+}
+div.c3_t1{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #323232;
+    padding-top: 15px;
+    width: 310px;
+    height: 57px;
+    margin-left: 25px;
+}
+
+div.c3_t2{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #666666;
+    padding-top: 15px;
+    font-weight: 100;
+    line-height: 24px;
+}
+div.c3_jt{
+    background: url(../img/jt2.png) no-repeat;
+    width: 64px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+div.c3_list ul li img{
+    transition:All 0.4s ease-in-out;
+    -webkit-transition:All 0.4s ease-in-out;
+    -moz-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;
+
+}
+div.c3_list ul li img:hover {
+    transform:translate(0,-10px);
+    -webkit-transform:translate(0,-10px);
+    -moz-transform:translate(0,-10px);
+    -o-transform:translate(0,-10px);
+    -ms-transform:translate(0,-10px);
+    -webkit-box-shadow:0px 5px 15px #e5e5e5;
+    -moz-box-shadow:0px 5px 15px #e5e5e5;
+    box-shadow:0px 5px 15px #e5e5e5;
+}
+div.c3_t1:hover{
+    color:#89B126
+}
+
+/*背景图二区域*/
+div.c4{
+    background: url(../img/bg3.png) center center no-repeat;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+div.c4 ul li{
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+}
+div.c4_title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    text-align: center;
+    padding-top: 20px;
+}
+div.c4_jt{
+    background: url(../img/jt3.png) no-repeat;
+    width: 35px;
+    height: 13px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
